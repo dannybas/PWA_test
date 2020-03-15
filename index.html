@@ -9,6 +9,14 @@
     </script>
   </head>
   <body>
+    <script> 
+      window.onload = () => {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('/sw.js');
+        }
+      }
+    </script>
     <h1 id="test">Test</h1>
     <script>
       if (window.navigator.standalone) {
