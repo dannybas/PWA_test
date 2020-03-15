@@ -1,7 +1,7 @@
 var cacheName = 'PWA test';
 var filesToCache = [
-  './',
-  './index.html',
+  '/',
+  '/index.html',
 ];
 
 // start the service and cache content
