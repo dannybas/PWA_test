@@ -1,7 +1,17 @@
 <html>
   <head>
     <meta name="apple-mobile-web-app-title" content="TestApp">
-    <link rel="manifest" href="./manifest.json">
+    <script type="application/json" id="manifest">
+      { 
+        "name": "PWA test",
+        "short_name": "PWA test",
+        "lang": "en-US",
+        "start_url": "./index.html",
+        "display": "standalone",
+        "background_color": "white",
+        "theme_color": "white"
+      }
+    </script>
     <script>
       if (window.navigator.standalone) {
         window.location.href = 'wix://platform/club/d5cfaadd-5cca-41c1-aa94-96787b9bb2ac?isOpenedFromShortcut=true';
