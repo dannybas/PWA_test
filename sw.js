@@ -1,4 +1,4 @@
-var cacheName = '15puzzle';
+var cacheName = 'PWA test';
 var filesToCache = [
   './',
   './index.html',
