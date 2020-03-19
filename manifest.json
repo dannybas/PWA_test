@@ -1,6 +1,6 @@
 {
-  "name": "PWA test2",
-  "short_name": "PWA test2",
+  "name": "test",
+  "short_name": "test",
   "lang": "en-US",
   "start_url": "./index.html",
   "display": "standalone",
