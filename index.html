@@ -5,10 +5,11 @@
     <link rel="manifest" href="./manifest.json">
     </script>
     <script>
+      document.addEventListener('visibilitychange', () => {
+          console.log(document.visibilityState);
+      });
       if (window.navigator.standalone) {
-        navigator.app.exitApp();	
-        //window.location.href = 'wix://platform/club/d5cfaadd-5cca-41c1-aa94-96787b9bb2ac?isOpenedFromShortcut=true';
-       
+        window.location.href = 'wix://platform/club/d5cfaadd-5cca-41c1-aa94-96787b9bb2ac?isOpenedFromShortcut=true';
       }
     </script>
   </head>
@@ -21,6 +22,6 @@
         }
       }
     </script>
-    <h1>Create shourtcut to your business3</h1>
+    <h1>Create shourtcut to your business4</h1>
   </body>
 </html>
